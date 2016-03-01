@@ -1,1 +1,1 @@
-git hook test
+date
