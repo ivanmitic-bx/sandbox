@@ -5,7 +5,7 @@ UPASS=$4
 APP_UNAME=$5
 
 if [[ -z $HOST || -z $VHOST || -z $UNAME || -z $UPASS || -z $APP_UNAME ]]; then
-  echo "Usage: $0 vhost queue_name username password aplication_username"
+  echo "Usage: $0 host vhost username password aplication_username"
   exit 1;
 fi
 
