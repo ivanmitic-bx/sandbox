@@ -5,8 +5,8 @@ use DateTime::Format::Strptime;
 use SurveyMonkey::API;
 
 use constant SM_DOMAIN => 'https://api.surveymonkey.net';
-use constant SM_BX_API_KEY => 'bby4nsf4kk6fpxbmjkapv6gz';
-use constant SM_BX_TOKEN => 'paTBz61kMlD0mPWrsaHR3921EuYbHlBvqU0GDZQ.5nahBvB1GbdZpbh2WnOzXY4S6-ygTbA0TNB6RdwuaQmtUsHjK2sCvXMT15kG57CTjP0=';
+use constant SM_BX_API_KEY => '';
+use constant SM_BX_TOKEN => '';
 
 use constant QUESTION_TRANSFORMER_MAP => {
   open_ended => _transform_open_ended,
